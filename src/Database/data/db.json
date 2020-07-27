@@ -1,38 +1,45 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Minha primeira postagem",
-            "text": "Essa é a minha <b>primeira postagem</b>!",
-            "id_category": 3,
-            "id_user": 2,
-            "date": "2020-07-07 14:00:00"
-        },
-        {
-            "id": 2,
-            "title": "Meu primeiro artigo!",
-            "text": "<p>Meu primeiro artigo está demais!</p>",
-            "id_category": 3,
-            "id_user": 1,
-            "date": "2020-10-01 08:30:00"
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Artigos"
-        },
-        {
-            "id": 2,
-            "name": "Pensamentos"
-        },
-        {
-            "id": 3,
-            "name": "Avisos"
-        },
-        {
-            "id": 4,
-            "name": "Conteúdos"
-        }
-    ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Minha primeira postagem",
+      "text": "Essa é a minha <b>primeira postagem</b>!",
+      "id_category": 3,
+      "id_user": 2,
+      "date": "2020-07-07 14:00:00"
+    },
+    {
+      "id": 2,
+      "title": "Meu primeiro artigo!",
+      "text": "<p>Meu primeiro artigo está demais!</p>",
+      "id_category": 3,
+      "id_user": 1,
+      "date": "2020-10-01 08:30:00"
+    },
+    {
+      "title": "Valores práticos para qualquer pessoa em qualquer época — autocontrole",
+      "text": "<p><strong>OS BENEFÍCIOS: </strong>Se você fizesse uma&nbsp;lista de todos os benefícios que o autocontrole traz, você precisaria de folhas e mais folhas de papel. Entre outras coisas, essa qualidade protege a saúde física.</p><p>&nbsp;</p><p>Pesquisas mostram que pessoas que facilmente perdem a calma ou que são hostis têm maior risco de apresentar problemas de saúde, <i>principalmente doenças cardiovasculares.</i> Mas os benefícios do autocontrole vão muito além da saúde física.</p>",
+      "id_category": 2,
+      "date": "2020-07-23T00:48:16.615Z",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Artigos"
+    },
+    {
+      "id": 2,
+      "name": "Pensamentos"
+    },
+    {
+      "id": 3,
+      "name": "Avisos"
+    },
+    {
+      "id": 4,
+      "name": "Conteúdos"
+    }
+  ]
 }

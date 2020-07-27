@@ -5,6 +5,7 @@ import 'express-async-errors';
 import Router from './Router';
 import Database from './Database';
 import Auth from './Auth';
+import cors from 'cors';
 
 class App {
     constructor() {
@@ -20,6 +21,7 @@ class App {
 
     middlewares() {
         this.server.use(express.json());
+        this.server.use(cors());
     }
 
     routes() {
